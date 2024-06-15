@@ -4,35 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e8a85fb-c34c-4c07-9e85-d9b3ff7d2aaf" name="Changes" comment="first practice">
-      <change afterPath="$PROJECT_DIR$/MUJOCO_LOG.TXT" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="8e8a85fb-c34c-4c07-9e85-d9b3ff7d2aaf" name="Changes" comment="first task of first practice">
+      <change afterPath="$PROJECT_DIR$/second_lecture/example.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_lecture/second_lec_first_example.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/first_pratice/task1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/first_pratice/task1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_pratice/task2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/first_pratice/task2.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "TYW-da"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;TYW-da&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/TYW-da/prototyping_tasks",
-    "accountId": "d259c49e-84e8-4679-843a-9dc33be4807e"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/TYW-da/prototyping_tasks&quot;,
+    &quot;accountId&quot;: &quot;d259c49e-84e8-4679-843a-9dc33be4807e&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2huY05XRCbJziJ5j9XWAhXOAmhi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -44,6 +52,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.second_lec_first_example.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "node.js.detected.package.eslint": "true",
@@ -56,6 +65,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tyw\PycharmProjects\prototyping_tasks\second_lecture" />
       <recent name="C:\Users\tyw\PycharmProjects\prototyping_tasks\first_pratice" />
     </key>
   </component>
@@ -75,7 +85,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718445203108</updated>
-      <workItem from="1718445204480" duration="3772000" />
+      <workItem from="1718445204480" duration="4969000" />
+      <workItem from="1718450473452" duration="139000" />
     </task>
     <task id="LOCAL-00001" summary="first practice">
       <option name="closed" value="true" />
@@ -93,7 +104,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718445464309</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="first task of first practice">
+      <option name="closed" value="true" />
+      <created>1718449180818</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1718449180818</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,6 +121,10 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first practice" />
-    <option name="LAST_COMMIT_MESSAGE" value="first practice" />
+    <MESSAGE value="first task of first practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="first task of first practice" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/prototyping_tasks$second_lec_first_example.coverage" NAME="second_lec_first_example Coverage Results" MODIFIED="1718450588447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/second_lecture" />
   </component>
 </project>
