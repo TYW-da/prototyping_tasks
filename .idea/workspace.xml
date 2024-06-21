@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e8a85fb-c34c-4c07-9e85-d9b3ff7d2aaf" name="Changes" comment="first task of first practice">
-      <change afterPath="$PROJECT_DIR$/second_lecture/example.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/second_lecture/second_lec_first_example.py" afterDir="false" />
+    <list default="true" id="8e8a85fb-c34c-4c07-9e85-d9b3ff7d2aaf" name="Changes" comment="examples from lectures">
+      <change afterPath="$PROJECT_DIR$/MJDATA.TXT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MJMODEL.TXT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/second_practice/example.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/second_practice/first_task.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_pratice/task1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/first_pratice/task1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_pratice/task2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/first_pratice/task2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/first_pratice/task2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/first_pratice/task2.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,22 +50,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Python.second_lec_first_example.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python.first_task.executor&quot;: &quot;Run&quot;,
+    &quot;Python.second_lec_first_example.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tyw\PycharmProjects\prototyping_tasks\examples_from_lec" />
+      <recent name="C:\Users\tyw\PycharmProjects\prototyping_tasks\tasks" />
       <recent name="C:\Users\tyw\PycharmProjects\prototyping_tasks\second_lecture" />
       <recent name="C:\Users\tyw\PycharmProjects\prototyping_tasks\first_pratice" />
     </key>
@@ -86,7 +91,11 @@
       <option name="presentableId" value="Default" />
       <updated>1718445203108</updated>
       <workItem from="1718445204480" duration="4969000" />
-      <workItem from="1718450473452" duration="139000" />
+      <workItem from="1718450473452" duration="2547000" />
+      <workItem from="1718453619716" duration="1690000" />
+      <workItem from="1718906676666" duration="881000" />
+      <workItem from="1718909807603" duration="2271000" />
+      <workItem from="1718945417454" duration="9067000" />
     </task>
     <task id="LOCAL-00001" summary="first practice">
       <option name="closed" value="true" />
@@ -112,7 +121,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718449180818</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="examples from lectures">
+      <option name="closed" value="true" />
+      <created>1718450815446</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1718450815446</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,9 +139,11 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first practice" />
     <MESSAGE value="first task of first practice" />
-    <option name="LAST_COMMIT_MESSAGE" value="first task of first practice" />
+    <MESSAGE value="examples from lectures" />
+    <option name="LAST_COMMIT_MESSAGE" value="examples from lectures" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/prototyping_tasks$second_lec_first_example.coverage" NAME="second_lec_first_example Coverage Results" MODIFIED="1718450588447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/second_lecture" />
+    <SUITE FILE_PATH="coverage/prototyping_tasks$second_lec_first_example.coverage" NAME="second_lec_first_example Coverage Results" MODIFIED="1718453550367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples_from_lec/second_lecture" />
+    <SUITE FILE_PATH="coverage/prototyping_tasks$first_task.coverage" NAME="first_task Coverage Results" MODIFIED="1718454972934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tasks/second_practice" />
   </component>
 </project>
