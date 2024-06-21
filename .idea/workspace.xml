@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e8a85fb-c34c-4c07-9e85-d9b3ff7d2aaf" name="Changes" comment="examples from lectures">
-      <change afterPath="$PROJECT_DIR$/MJDATA.TXT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MJMODEL.TXT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/second_practice/example.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/second_practice/first_task.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/first_pratice/task2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/first_pratice/task2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MUJOCO_LOG.TXT" beforeDir="false" afterPath="$PROJECT_DIR$/MUJOCO_LOG.TXT" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +91,7 @@
       <workItem from="1718906676666" duration="881000" />
       <workItem from="1718909807603" duration="2271000" />
       <workItem from="1718945417454" duration="9067000" />
+      <workItem from="1718962402988" duration="250000" />
     </task>
     <task id="LOCAL-00001" summary="first practice">
       <option name="closed" value="true" />

@@ -6,7 +6,6 @@
         <material name="green" rgba="0 1 0 1" />
         <material name="red__" rgba="1 0 0 1" />
         <material name="white" rgba="1 1 1 1" />
-        <material name="trans" rgba="0 0 0 0" />
     </asset>
     <actuator>
         <motor gear="100" joint="joint_1" name="first_motor" ctrlrange="-50 50" ctrllimited="true"/>
@@ -15,9 +14,6 @@
     <worldbody>
         <geom type="plane" size="10 10 0.1" pos="0 0 0" rgba=".9 0 0 1" />
         <light diffuse=".5 .5 .5" pos="0 0 3" dir="0 0 -1" />
-        <body name="base" pos="0 0 0.15" euler="0 90 0">
-            <geom type="box" size=".1 .1 1.25" pos="0 0 1.35" euler="0 0 0" material="trans" />
-        </body>
         <body name="active_0" pos="0 0 0.15" euler="0 100 0">
             <geom type="cylinder" size=".15 .12" pos="0 0 0" euler="90 0 0" material="blue_" />
             <joint name="joint_1" pos="0 0 0" axis="0 1 0" />-
@@ -44,13 +40,8 @@
         </body>
     </worldbody>
     <equality>
-        <connect name="link_0" active="true" body1="active_0" body2="base" anchor="0 0 0"/>
-        <connect name="link_1" active="true" body1="active_1" body2="base" anchor="0 0 0"/>
+        <connect name="link_0" active="true" body1="active_0" anchor="0 0 0"/>
+        <connect name="link_1" active="true" body1="active_1" anchor="0 0 0"/>
     </equality>
-    <contact>
-        <exclude body1="active_0" body2="base"/>
-        <exclude body1="passive_2" body2="base"/>
-        <exclude body1="passive_0" body2="base"/>
-    </contact>
 </mujoco>
 
