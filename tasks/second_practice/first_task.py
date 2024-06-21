@@ -13,8 +13,9 @@ with mujoco.viewer.launch_passive(model, data) as viewer:
 
         mujoco.mj_step(model, data)
 
+
         data.qvel(1)
-        print(mujoco.mj_inverse(model,data))
+        mujoco.mj_inverse(model,data)
 
         viewer.sync()
 
