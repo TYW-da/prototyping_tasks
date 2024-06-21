@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e8a85fb-c34c-4c07-9e85-d9b3ff7d2aaf" name="Changes" comment="examples from lectures">
-      <change beforePath="$PROJECT_DIR$/MUJOCO_LOG.TXT" beforeDir="false" afterPath="$PROJECT_DIR$/MUJOCO_LOG.TXT" afterDir="false" />
+    <list default="true" id="8e8a85fb-c34c-4c07-9e85-d9b3ff7d2aaf" name="Changes" comment="first week bug fix">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/first_pratice/task1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/first_pratice/task1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/second_practice/first_task.py" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/second_practice/first_task.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,6 +94,7 @@
       <workItem from="1718909807603" duration="2271000" />
       <workItem from="1718945417454" duration="9067000" />
       <workItem from="1718962402988" duration="250000" />
+      <workItem from="1718963007926" duration="4672000" />
     </task>
     <task id="LOCAL-00001" summary="first practice">
       <option name="closed" value="true" />
@@ -125,7 +128,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718450815446</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="first week bug fix">
+      <option name="closed" value="true" />
+      <created>1718963160272</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1718963160272</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,10 +147,11 @@
     <MESSAGE value="first practice" />
     <MESSAGE value="first task of first practice" />
     <MESSAGE value="examples from lectures" />
-    <option name="LAST_COMMIT_MESSAGE" value="examples from lectures" />
+    <MESSAGE value="first week bug fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="first week bug fix" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/prototyping_tasks$second_lec_first_example.coverage" NAME="second_lec_first_example Coverage Results" MODIFIED="1718453550367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples_from_lec/second_lecture" />
-    <SUITE FILE_PATH="coverage/prototyping_tasks$first_task.coverage" NAME="first_task Coverage Results" MODIFIED="1718454972934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tasks/second_practice" />
+    <SUITE FILE_PATH="coverage/prototyping_tasks$first_task.coverage" NAME="first_task Coverage Results" MODIFIED="1718968321052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tasks/second_practice" />
   </component>
 </project>
