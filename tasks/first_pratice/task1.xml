@@ -25,14 +25,14 @@
                 <body name="yaw" pos="0 0.4 0" euler="90 0 0">
                     <joint name="joint_2" pos="0 0 0" axis="0 0 1" />-
                     <geom type="cylinder" size=".02 .01" pos="0 0 0.37" euler="0 0 0" material="blue_"  mass = "0.065"/>
-                    <geom type="box" size=".02 .005 .1" pos="0 .025 .28" euler="0 0 0" material="white" />
-                    <geom type="box" size=".02 .005 .1" pos="0 -.025 .28" euler="0 0 0" material="white" />
+                    <geom type="box" size=".02 .005 .1" pos="0 .025 .28" euler="0 0 0" material="white" mass="0.010"/>
+                    <geom type="box" size=".02 .005 .1" pos="0 -.025 .28" euler="0 0 0" material="white" mass="0.010"/>
                     <body name="elbow" pos="0 0 0.18" euler="90 0 0">
                         <joint name="joint_3" pos="0 0 0" axis="0 0 1" />-
                         <geom type="cylinder" size=".02 .01" pos="0 0 0" euler="0 0 0" material="blue_"  mass = "0.065"/>
                         <geom type="cylinder" size=".02 .005" pos="0 0 -0.015" euler="0 0 0" material="white"  mass = "0.065"/>
                         <geom type="cylinder" size=".02 .005" pos="0 0 0.015" euler="0 0 0" material="white"  mass = "0.065"/>
-                        <geom type="box" size=".01 .01 .1" pos="0 -.1 0" euler="90 0 0" material="white" />
+                        <geom type="box" size=".01 .01 .1" pos="0 -.1 0" euler="90 0 0" material="white" mass="0.020"/>
                         <body name="tool" pos="0 -.2 0" euler="0 0 0">
                             <geom type="sphere" size="0.02" pos="0 0 0" euler="0 0 0" material="white" mass="1"/>
                         </body>
