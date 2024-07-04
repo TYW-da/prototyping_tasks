@@ -32,22 +32,20 @@ with mujoco.viewer.launch_passive(model, data) as viewer:
     start = time.time()
     i0, i1, i2, i3 = 0, 0, 0, 0
     while viewer.is_running() and time.time() - start < 30:
-
         step_start = time.time()
         i0, i1, i2, i3 = all_conf(i0, i1, i2, i3)
         data.qpos = np.deg2rad([i0, i1, i2, i3])
         mujoco.mj_step(model, data)
         mujoco.mj_inverse(model, data)
-        print(data.qfrc_inverse)
-
-        # Write to CSV file
-        with open(csv_filename, mode='a', newline='') as csv_file:
-            csv_writer = csv.writer(csv_file)
-            csv_writer.writerow(data.qfrc_inverse)
+        if data.contact:
+            print('contact')
+        else:
+            with open(csv_filename, mode='a', newline='') as csv_file:
+                csv_writer = csv.writer(csv_file)
+                csv_writer.writerow(data.qfrc_inverse)
 
         viewer.sync()
 
-        # Rudimentary time keeping, will drift relative to wall clock.
         time_until_next_step = model.opt.timestep - (time.time() - step_start)
         if time_until_next_step > 0:
             time.sleep(time_until_next_step)
