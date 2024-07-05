@@ -19,19 +19,16 @@ time_points = np.linspace(0, 2 * np.pi, num_points)
 x_trajectory = amplitude * np.sin(time_points)
 y_trajectory = amplitude * np.cos(time_points)
 
-# Find the site ID of the target site
-target_site_id = model.site_name2id('target')
-
 # Main simulation loop
 with mujoco.viewer.launch_passive(model, data) as viewer:
     start = time.time()
     for i in range(len(time_points)):
         # Set desired position in cartesian space
-        data.site_xpos[target_site_id] = [x_trajectory[i], y_trajectory[i], 0]
+        data.site_xpos[0] = [x_trajectory[i], y_trajectory[i], 0]
 
         # Set desired position in joint space (assuming joint index 0 here)
         data.qpos[0] = x_trajectory[i]
-        data.qvel[0] = max_velocity * np.cos(time_points[i])  # Velocity in joint space
+        data.qvel[0] = max_velocity * np.cos(time_points[i])
 
         # Step forward the simulation
         step_start = time.time()
@@ -40,7 +37,7 @@ with mujoco.viewer.launch_passive(model, data) as viewer:
         print("Position:", data.qpos[0])
         print("Velocity:", data.qvel[0])
         print("Acceleration:", data.qacc[0])
-        print("Cartesian Position:", data.site_xpos[target_site_id])
+        print("Cartesian Position:", data.site_xpos[0])
         print("Motor Torques:", data.qfrc_inverse[0])
 
         viewer.sync()
