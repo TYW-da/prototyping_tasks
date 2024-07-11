@@ -40,5 +40,6 @@
                 </body>
             </body>
         </body>
+     <site name = 'target' size='0 0 .1' pos='0 .1 0' color = '0 1 0 0' />
     </worldbody>
 </mujoco>

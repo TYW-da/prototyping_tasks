@@ -12,6 +12,11 @@ max_velocity = 0.4  # m/s
 model = mujoco.MjModel.from_xml_path('example.xml')
 data = mujoco.MjData(model)
 
+j_l = np.zeros((3, 3))
+j_r = np.zeros((3, 3))
+
+mujoco.mj_jac(model, data, j_l, j_r)
+
 # Calculate trajectory points
 timestep = model.opt.timestep
 num_points = int(2 * amplitude / max_velocity / timestep) + 1
@@ -23,6 +28,7 @@ y_trajectory = amplitude * np.cos(time_points)
 with mujoco.viewer.launch_passive(model, data) as viewer:
     start = time.time()
     for i in range(len(time_points)):
+
         # Set desired position in cartesian space
         data.site_xpos[0] = [x_trajectory[i], y_trajectory[i], 0]
 
